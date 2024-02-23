@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- ================tailwindcss=========================== -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- =====================font awesome======================= -->
+    <script
+      src="https://kit.fontawesome.com/db9e661b57.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ===============google font======================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="./node_modules/preline/dist/preline.js"></script>
+    <!-- ======================custom css========================= -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="font-['Poppins']">
+    <header
+      class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white border-b border-gray-200 text-sm py-3 px-12 sm:py-0 dark:bg-[#010127] dark:border-gray-700"
+    >
+      <nav
+        class="relative max-w-7xl w-full px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
+        aria-label="Global"
+      >
+        <div class="flex items-center justify-between">
+          <a
+            class="flex-none text-xl font-semibold dark:text-white"
+            href="#"
+            aria-label="Brand"
+            ><img class="w-14" src="./images/logo.jpg" alt=""
+          /></a>
+          <div class="sm:hidden">
+            <button
+              type="button"
+              class="hs-collapse-toggle size-9 flex justify-center items-center text-sm font-semibold rounded-lg border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+              data-hs-collapse="#navbar-collapse-with-animation"
+              aria-controls="navbar-collapse-with-animation"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                class="hs-collapse-open:hidden size-4"
+                width="16"
+                height="16"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+              <svg
+                class="hs-collapse-open:block flex-shrink-0 hidden size-4"
+                width="16"
+                height="16"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div
+          id="navbar-collapse-with-animation"
+          class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block"
+        >
+          <div
+            class="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7"
+          >
+            <a
+              class="font-medium hover:text-[#ffa500] sm:py-6 hover:dark:text-[#ffa500] text-[#c8c8c8] duragtion-500"
+              href="#"
+              aria-current="page"
+              >Home</a
+            >
+            <a
+              class="font-medium hover:text-[#ffa500] sm:py-6 hover:dark:text-[#ffa500] text-[#c8c8c8] duragtion-500"
+              href="#about"
+              aria-current="page"
+              >About</a
+            >
+            <a
+              class="font-medium hover:text-[#ffa500] sm:py-6 hover:dark:text-[#ffa500] text-[#c8c8c8] duragtion-500"
+              href="#"
+              >Experience</a
+            >
+            <a
+              class="font-medium hover:text-[#ffa500] sm:py-6 hover:dark:text-[#ffa500] text-[#c8c8c8] duragtion-500"
+              href="#"
+              >Projects</a
+            >
+            <a
+              class="font-medium hover:text-[#ffa500] sm:py-6 hover:dark:text-[#ffa500] text-[#c8c8c8] duragtion-500"
+              href="#"
+              >Education</a
+            >
+            <a
+              class="font-medium hover:text-[#ffa500] sm:py-6 hover:dark:text-[#ffa500] text-[#c8c8c8] duragtion-500"
+              href="#"
+              >Skills</a
+            >
+            <a
+              class="font-medium hover:text-[#ffa500] sm:py-6 hover:dark:text-[#ffa500] text-[#c8c8c8] duragtion-500"
+              href="#"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container mx-auto">
+      <section></section>
+      <section id="about" class="mt-4 md:mt-7 lg:z-10">
+        <h2 class="text-center font-semibold text-3xl bg-[#010127] text-white py-4 rounded-xl">About Me</h2>
+        <div class="flex flex-col md:flex-row gap-4 px-3 py-4 md:py-8">
+          <div class="md:flex-1">
+            <img class="rounded-xl w-full" src="./images/about.jpg" alt="" />
+          </div>
+          <div class="md:flex-1 flex flex-col justify-center lg:pl-3">
+            <h2 class="font-semibold text-2xl before:content-['']">
+              <span class="text-lg font-medium">Hello! 👋 there ,</span> <br> I'm Asad, a
+              dedicated web developer
+            </h2>
+            <p class="text-[#4F5A6C] block md:hidden lg:block mt-4">
+              I am passionate for crafting elegant and
+              functional digital solutions. With a solid foundation in HTML5,
+              CSS3, and JavaScript, coupled with expertise in React.js, Node.js,
+              and MongoDB, I specialize in creating seamless and dynamic web
+              applications. I thrive on turning ideas into reality and am
+              constantly seeking new challenges to push my skills to the next
+              level. Let's collaborate and bring your vision to life!
+            </p>
+            <p class="hidden md:block lg:hidden text-[#4F5A6C] mt-4">I am passionate about creating elegant digital solutions. With expertise in HTML5, CSS3, JavaScript, React.js, Node.js, and MongoDB, I specialize in dynamic web applications. Let's turn your ideas into reality together!</p>
+            <div>
+              <button class="bg-[#010127] text-white px-5 py-2 rounded-lg outline-none mt-5">Download Resume</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./App.js"></script>
+  </body>
+</html>
