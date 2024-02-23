@@ -26,7 +26,7 @@
   </head>
   <body class="font-['Poppins']">
     <header
-      class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white border-b border-gray-200 text-sm py-3 px-12 sm:py-0 dark:bg-[#010127] dark:border-gray-700"
+      class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-3 px-12 sm:py-0 dark:bg-[#010127] sticky top-0"
     >
       <nav
         class="relative max-w-7xl w-full px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
@@ -122,31 +122,88 @@
       </nav>
     </header>
 
-    <main class="container mx-auto">
-      <section></section>
-      <section id="about" class="mt-4 md:mt-7 lg:z-10">
-        <h2 class="text-center font-semibold text-3xl bg-[#010127] text-white py-4 rounded-xl">About Me</h2>
+    <main>
+      <section class="bg-[#010127] banner-container">
+        <div class="container mx-auto md:px-10 pb-10">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-10 p-10 text-white">
+            <div class="flex flex-col justify-center sm:mb-8">
+              <h3>Hey! My name is</h3>
+              <h1 class="text-5xl my-5 font-bold">
+                Md <span class="text-[#DC143C]"> Asadul </span>Islam
+              </h1>
+              <h3>A front-End Web Developer</h3>
+              <div>
+                <button
+                  class="border border-green-500 px-5 py-2 rounded-lg outline-none mt-4 hover:bg-[#212129] duration-500"
+                >
+                  <a href="https://github.com/Asad9340" target="_blank"
+                    ><i class="fa-brands fa-github"></i> Github</a
+                  >
+                </button>
+              </div>
+              <div class="mt-4 flex gap-3 text-2xl">
+                <button class="hover:text-blue-800">
+                  <a href="https://www.facebook.com/asad9340" target="_blank"
+                    ><i class="fa-brands fa-square-facebook"></i
+                  ></a>
+                </button>
+                <button class="hover:text-[#0A66C2]">
+                  <a href="https://www.linkedin.com/in/asad9340/" target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                </button>
+                <button class="hover:text-[#1A8CD8]">
+                  <a href="https://twitter.com/asad9340" target="_blank"
+                    ><i class="fa-brands fa-square-x-twitter"></i
+                  ></a>
+                </button>
+              </div>
+            </div>
+            <div>
+              <div class="banner flex justify-center sm:pb-8 md:justify-end">
+                <img class="shape" src="./images/banner.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="container mx-auto mt-4 md:mt-7 lg:z-10">
+        <h2
+          class="text-center font-semibold text-3xl bg-[#010127] text-white py-4 rounded-xl mx-3"
+        >
+          About Me
+        </h2>
         <div class="flex flex-col md:flex-row gap-4 px-3 py-4 md:py-8">
           <div class="md:flex-1">
             <img class="rounded-xl w-full" src="./images/about.jpg" alt="" />
           </div>
           <div class="md:flex-1 flex flex-col justify-center lg:pl-3">
             <h2 class="font-semibold text-2xl before:content-['']">
-              <span class="text-lg font-medium">Hello! 👋 there ,</span> <br> I'm Asad, a
-              dedicated web developer
+              <span class="text-lg font-medium">Hello! 👋 there ,</span> <br />
+              I'm <span class="text-[#DC143C]">Asad</span>, a dedicated web
+              developer
             </h2>
             <p class="text-[#4F5A6C] block md:hidden lg:block mt-4">
-              I am passionate for crafting elegant and
-              functional digital solutions. With a solid foundation in HTML5,
-              CSS3, and JavaScript, coupled with expertise in React.js, Node.js,
-              and MongoDB, I specialize in creating seamless and dynamic web
-              applications. I thrive on turning ideas into reality and am
-              constantly seeking new challenges to push my skills to the next
-              level. Let's collaborate and bring your vision to life!
+              I am passionate for crafting elegant and functional digital
+              solutions. With a solid foundation in HTML5, CSS3, and JavaScript,
+              coupled with expertise in React.js, Node.js, and MongoDB, I
+              specialize in creating seamless and dynamic web applications. I
+              thrive on turning ideas into reality and am constantly seeking new
+              challenges to push my skills to the next level. Let's collaborate
+              and bring your vision to life!
             </p>
-            <p class="hidden md:block lg:hidden text-[#4F5A6C] mt-4">I am passionate about creating elegant digital solutions. With expertise in HTML5, CSS3, JavaScript, React.js, Node.js, and MongoDB, I specialize in dynamic web applications. Let's turn your ideas into reality together!</p>
+            <p class="hidden md:block lg:hidden text-[#4F5A6C] mt-4">
+              I am passionate about creating elegant digital solutions. With
+              expertise in HTML5, CSS3, JavaScript, React.js, Node.js, and
+              MongoDB, I specialize in dynamic web applications. Let's turn your
+              ideas into reality together!
+            </p>
             <div>
-              <button class="bg-[#010127] text-white px-5 py-2 rounded-lg outline-none mt-5">Download Resume</button>
+              <button
+                class="bg-[#010127] text-white px-5 py-2 rounded-lg outline-none mt-5"
+              >
+                Download Resume
+              </button>
             </div>
           </div>
         </div>
