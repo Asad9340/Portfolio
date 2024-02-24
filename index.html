@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Asad's portfolio</title>
-    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon" />
     <!-- ================tailwindcss=========================== -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- =====================font awesome======================= -->
@@ -123,6 +123,7 @@
     </header>
 
     <main>
+      <!-- =============banner section================ -->
       <section class="bg-[#010127] banner-container">
         <div class="container mx-auto md:px-10 pb-10">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-10 p-10 text-white">
@@ -169,6 +170,7 @@
           </div>
         </div>
       </section>
+      <!-- ==================about section================== -->
       <section id="about" class="container mx-auto mt-4 md:mt-7 lg:z-10">
         <h2
           class="text-center font-semibold text-3xl bg-[#010127] text-white py-4 rounded-xl mx-3"
@@ -210,7 +212,8 @@
           </div>
         </div>
       </section>
-      <section class="container mx-auto mt-4 md:mt-7 lg:z-10">
+      <!-- ===================skills section================ -->
+      <section class="container mx-auto mt-4 md:mt-7 lg:mt-10">
         <div>
           <div class="text-center py-5 mb-8">
             <h2
@@ -324,6 +327,87 @@
               </div>
             </div>
             <!-- End Progress -->
+          </div>
+        </div>
+      </section>
+      <!-- ===================contact with me section=============== -->
+      <section class="mt-4 md:mt-7 lg:mt-10 container mx-auto">
+        <div>
+          <h2
+            class="text-center font-semibold text-3xl bg-[#010127] text-white py-4 rounded-xl mx-3"
+          >
+            Get in Touch
+          </h2>
+        </div>
+        <div
+          class="grid gap-2 md:gap-4 lg:gap-6 grid-cols-1 md:grid-cols-2 p-4"
+        >
+          <div class="flex flex-col justify-center">
+            <h2 class="text-3xl text-[#010127] font-semibold">Lets Chat</h2>
+            <h2 class="text-3xl text-[#010127] font-semibold">
+              Tell me about your Thought...
+            </h2>
+            <p class="text-[#4F5A6C]">Let's create something together</p>
+          </div>
+          <div class="space-y-4">
+            <div class="relative">
+              <input
+                type="text"
+                class="peer py-3 px-4 ps-11 block w-full placeholder:text-black bg-[#a1a2a4] border-transparent rounded-lg text-sm outline-none"
+                placeholder="Enter name"
+              />
+              <div
+                class="absolute inset-y-0 start-0 flex items-center pointer-events-none ps-4 peer-disabled:opacity-50 peer-disabled:pointer-events-none"
+              >
+                <img class="w-4" src="./images/man.svg" alt="" />
+              </div>
+            </div>
+            <div class="relative">
+              <input
+                type="email"
+                class="peer py-3 px-4 ps-11 block w-full placeholder:text-black bg-[#a1a2a4] border-transparent rounded-lg text-sm outline-none"
+                placeholder="Enter email"
+              />
+              <div
+                class="absolute inset-y-0 start-0 flex items-center pointer-events-none ps-4 peer-disabled:opacity-50 peer-disabled:pointer-events-none"
+              >
+                <img class="w-4 text-[#fff]" src="./images/email.svg" alt="" />
+              </div>
+            </div>
+            <div class="relative">
+              <input
+                type="text"
+                class="peer py-3 px-4 ps-11 block w-full placeholder:text-black bg-[#a1a2a4] border-transparent rounded-lg text-sm outline-none"
+                placeholder="Enter Subject"
+              />
+              <div
+                class="absolute inset-y-0 start-0 flex items-center pointer-events-none ps-4 peer-disabled:opacity-50 peer-disabled:pointer-events-none"
+              >
+                <img
+                  class="w-4 text-[#fff]"
+                  src="./images/subject.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="relative">
+              <img class="w-4 absolute top-4 left-4" src="./images/message.svg" alt="" />
+              <textarea
+                class="peer py-3 ps-11 block w-full placeholder:text-black bg-[#a1a2a4] border-transparent rounded-lg text-sm outline-none"
+                name=""
+                id=""
+                cols="30"
+                rows="5"
+                placeholder="Enter Message"
+              ></textarea>
+            </div>
+            <div class="relative">
+              <div
+                class="text-center py-2 rounded-lg outline-none bg-[#010127] text-white active:bg-gray-700 hover:scale-105 hover:duration-700"
+              >
+                <button type="submit">Send message</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
